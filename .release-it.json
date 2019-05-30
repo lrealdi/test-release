@@ -1,0 +1,6 @@
+{
+  "github": {
+    "release": true,
+    "releaseNotes": "composer-lock-diff --from=HEAD^:composer.lock --to=HEAD:composer.lock --md --changelog"
+  }
+}
