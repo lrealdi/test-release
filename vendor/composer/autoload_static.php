@@ -10,6 +10,7 @@ class ComposerStaticInitdb5cc41d2440d7145664bc318bae1583
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\Http\\Message\\' => 17,
         ),
     );
 
@@ -17,6 +18,10 @@ class ComposerStaticInitdb5cc41d2440d7145664bc318bae1583
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
     );
 
